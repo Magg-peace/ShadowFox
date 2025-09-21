@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Fan Zone - IPL Hub</title>
+<link rel="stylesheet" href="css/style.css">
+<script defer src="js/script.js"></script>
+</head>
+<body>
+<nav class="navbar">
+  <div class="logo">🏏 IPL Hub</div>
+  <ul class="nav-links">
+    <li><a href="index.html">Home</a></li>
+    <li><a href="team.html">Team</a></li>
+    <li><a href="matches.html">Matches</a></li>
+    <li><a href="stats.html">Stats</a></li>
+    <li><a href="news.html">News</a></li>
+    <li><a href="fanzone.html" class="active">Fan Zone</a></li>
+    <li><a href="about.html">About</a></li>
+    <li><a href="contact.html">Contact</a></li>
+  </ul>
+  <button id="changeTeamBtn" class="btn">Change Team</button>
+</nav>
+
+<section class="hero pastel-bg">
+  <h1>Fan Zone - <span id="teamName">CSK</span></h1>
+  <p>Vote, interact, and show your support!</p>
+</section>
+
+<section class="fan-poll">
+  <h2>Vote for Player of the Match</h2>
+  <div class="poll-option">
+    <span>Player 1</span>
+    <div class="poll-bar" id="player1-bar"></div>
+    <button onclick="vote('player1')">Vote</button>
+  </div>
+  <div class="poll-option">
+    <span>Player 2</span>
+    <div class="poll-bar" id="player2-bar"></div>
+    <button onclick="vote('player2')">Vote</button>
+  </div>
+</section>
+</body>
+</html>

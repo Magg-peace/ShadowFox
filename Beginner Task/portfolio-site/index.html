@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Meghana S | Portfolio</title>
+  <link rel="stylesheet" href="style.css">
+  <script defer src="script.js"></script>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&family=Inter:wght@400;500&display=swap" rel="stylesheet">
+</head>
+<body class="light">
+
+<!-- Navbar -->
+<header>
+  <nav class="navbar">
+    <div class="logo">Meghana S</div>
+    <ul class="nav-links">
+      <li><a href="#home">Home</a></li>
+      <li><a href="#about">About</a></li>
+      <li><a href="#skills">Skills</a></li>
+      <li><a href="#projects">Projects</a></li>
+      <li><a href="#resume">Resume</a></li>
+      <li><a href="#contact">Contact</a></li>
+    </ul>
+    <div class="nav-right">
+      <button id="theme-toggle">🌙</button>
+      <a href="mailto:meghana@example.com" class="social">📧</a>
+      <a href="#" class="social">LinkedIn</a>
+      <a href="#" class="social">GitHub</a>
+    </div>
+  </nav>
+</header>
+
+<!-- Hero -->
+<section id="home" class="hero">
+  <div class="hero-left fade-in">
+    <h1>Hello, I'm <span>Meghana S</span></h1>
+    <p class="tagline">I'm a <span id="typed"></span></p>
+    <div class="hero-buttons">
+      <a href="#resume" class="btn">Resume</a>
+      <a href="#projects" class="btn secondary">Projects</a>
+    </div>
+  </div>
+  <div class="hero-right fade-in">
+    <div class="profile-wrapper">
+      <img src="assets/profile.jpg" alt="Meghana S" class="profile-img">
+    </div>
+  </div>
+  <div class="animated-bg"></div>
+</section>
+
+<!-- About -->
+<section id="about" class="section fade-in">
+  <h2>About Me</h2>
+  <p>I am Meghana S, a passionate technologist and designer. My work spans healthcare apps, robotics, event management, and modern web solutions. Skilled in React, Flutter, Node.js, Firebase, MongoDB, Java, Python, and UI/UX design.</p>
+  <p>I love creating solutions that are functional, interactive, and visually appealing, combining technology and creativity.</p>
+</section>
+
+<!-- Skills -->
+<section id="skills" class="section fade-in">
+  <h2>Skills</h2>
+  <div class="skills-grid">
+    <div class="skill">
+      <p>React.js</p>
+      <div class="skill-bar"><div class="skill-fill" style="width:90%"></div></div>
+    </div>
+    <div class="skill">
+      <p>Flutter</p>
+      <div class="skill-bar"><div class="skill-fill" style="width:85%"></div></div>
+    </div>
+    <div class="skill">
+      <p>Node.js</p>
+      <div class="skill-bar"><div class="skill-fill" style="width:80%"></div></div>
+    </div>
+    <div class="skill">
+      <p>Firebase</p>
+      <div class="skill-bar"><div class="skill-fill" style="width:85%"></div></div>
+    </div>
+    <div class="skill">
+      <p>Python</p>
+      <div class="skill-bar"><div class="skill-fill" style="width:75%"></div></div>
+    </div>
+    <div class="skill">
+      <p>Figma</p>
+      <div class="skill-bar"><div class="skill-fill" style="width:80%"></div></div>
+    </div>
+  </div>
+</section>
+
+<!-- Projects -->
+<section id="projects" class="section fade-in">
+  <h2>Projects</h2>
+  <div class="project-grid">
+    <div class="project-card">
+      <h3>Healthcare Assistant App</h3>
+      <p>AI-powered app for symptom checking and multilingual support.</p>
+    </div>
+    <div class="project-card">
+      <h3>Obstacle Avoiding Robot</h3>
+      <p>Arduino-based autonomous robot using ultrasonic sensors.</p>
+    </div>
+    <div class="project-card">
+      <h3>PARVA Event Management App</h3>
+      <p>Mobile app for event approvals, tracking, and club management.</p>
+    </div>
+    <div class="project-card">
+      <h3>CampusShield</h3>
+      <p>Anonymous reporting tool for campus safety issues.</p>
+    </div>
+  </div>
+</section>
+
+<!-- Resume -->
+<section id="resume" class="section fade-in">
+  <h2>Resume</h2>
+  <p>Download my resume to learn more about my experience and skills:</p>
+  <a href="assets/resume.pdf" class="btn" download>Download Resume</a>
+</section>
+
+<!-- Contact -->
+<section id="contact" class="section fade-in">
+  <h2>Contact Me</h2>
+  <form class="contact-form">
+    <input type="text" placeholder="Your Name" required>
+    <input type="email" placeholder="Your Email" required>
+    <textarea placeholder="Your Message" required></textarea>
+    <button type="submit" class="btn">Send</button>
+  </form>
+  <div class="socials" style="text-align:center; margin-top:1rem;">
+    <a href="mailto:meghana@example.com" class="social">📧 Email</a> | 
+    <a href="#" class="social">LinkedIn</a> | 
+    <a href="#" class="social">GitHub</a>
+  </div>
+</section>
+
+<footer>
+  <p>© 2025 Meghana S | Built with 💻</p>
+</footer>
+
+</body>
+</html>
